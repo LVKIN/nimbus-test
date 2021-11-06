@@ -12,6 +12,17 @@ const MyTasks = (): JSX.Element => {
 
             <S.MyTasksContent>
                 <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
             </S.MyTasksContent>
         </S.MyTasksWrapper>
     )
