@@ -28,7 +28,7 @@ export const AddTasksTitleContent = styled.h1`
     color: #FFF;
 `;
 
-export const AddTasksForm = styled.form`
+export const AddTasksForm = styled.div`
     display: block;
     padding: 0 ${rem(50)};
 `;

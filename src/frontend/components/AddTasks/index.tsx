@@ -28,9 +28,11 @@ const AddTasks = (): JSX.Element => {
                 </S.AddTasksDate>
 
                 <S.AddTasksHour>
-                    <S.AddTasksLabel>Hora</S.AddTasksLabel>
+                    <S.AddTasksLabel htmlFor='timeInput'>Hora</S.AddTasksLabel>
                     <S.AddTasksInput
                         type='time'
+                        id='timeInput'
+                        name='time'
                     />
                 </S.AddTasksHour>
 
